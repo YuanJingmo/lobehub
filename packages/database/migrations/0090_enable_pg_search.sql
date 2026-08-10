@@ -1,2 +1,3 @@
 -- Custom SQL migration file, put your code below! --
-CREATE EXTENSION IF NOT EXISTS pg_search;
+-- SKIPPED: pg_search extension is deprecated on Neon Free tier and no longer allowed.
+-- Full-text search indexes relying on this extension have been disabled.
